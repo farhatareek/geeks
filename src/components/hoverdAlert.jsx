@@ -45,7 +45,7 @@ export default function HoverdAlert() {
                 borderRadius:"7.69px",
                 alignItems:"center",
                 transition: 'background-color 2s ease',
-                backgroundColor: expanded ? '#53ACFF' : '#fff' // Set the background color to blue when expanded is true
+                backgroundColor: expanded ? '#53ACFF' : '#313131' // Set the background color to blue when expanded is true
             }} className='alert'>
                 <Box sx={{display:"flex", justifyContent:"space-between", textAlign:"center"}}>
                     <Image className='alertIcons' alt='icon1' src={dollar.src} width={32.71} height={30.22}/>
