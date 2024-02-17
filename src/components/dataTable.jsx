@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 export default function DataTable() {
     return (
-        <Grid container  sx={{width:{sm: `calc(100% - 430px)`, xs:"85%"},
+        <Grid container  sx={{width:{sm: `calc(100% - 430px)`, xs:"99%"},
         marginTop:"90px", height:"400px", display:"flex", flexWrap:"wrap",
         position:"relative", top:{xs:"1100px", md:"0"}}} >
         <LowRisk/>
